@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	padding-left: 100px;
+}
+
+h1{
+	
+	display:inline;
+}
+
+.form-data{
+	font-size: 20px;
+	align-content: center;
+}
+
+.loginDesign{
+	font-size: 20px;
+	align-content: center;
+	/*border:2px solid green;*/
+	margin-right: 950px;
+	padding-left: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#table1{
+    border-collapse: separate;
+    border-spacing: 15px 20px; /*the first sets the horizontal spacing and the second sets the vertical spacing*/
+}
+
+.profileShow{
+	margin-left:300px;
+	margin-right:400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border:2px solid green;
+	align-content: center;
+
+}

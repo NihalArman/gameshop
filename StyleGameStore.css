@@ -1,0 +1,82 @@
+body{
+	background-image:url("admin/images/gamepad.jpg");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+
+	}
+.container{
+	color:white;
+}
+
+.wrapper{
+	/*top right bottom left*/
+	margin:100px 100px 0px 100px;
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:1em;
+	grid-auto-rows:minmax(100px,auto);
+	font-size:30px;
+}
+
+.wrapper>div{
+	background:#eee;
+	padding:1em;
+	
+}
+
+.wrapper>div:nth-child(odd){
+	
+
+}
+
+.gameView{
+	background:#eee;
+	padding:1em;
+}
+
+
+h1{
+	color:white;
+}
+
+.addGameContent{
+	font-size:20px;
+	color:white;
+
+	margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 50px 50px 50px 300px;
+}
+
+#table1{
+    border-collapse: separate;
+    border-spacing: 15px 20px; /*the first sets the horizontal spacing and the second sets the vertical spacing*/
+}
+
+.gameTable{
+	margin-left:300px;
+	margin-right:400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border:2px solid green;
+	align-content: center;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.gameButton{
+	margin:30px 0px 0px 100px;
+	color:white;
+}
+

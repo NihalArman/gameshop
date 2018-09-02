@@ -1,0 +1,43 @@
+body{
+	background-image:url("images/gamepad.jpg");
+}
+
+.wrapper{
+	/*top right bottom left*/
+	margin:200px 100px 0px 100px;
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:1em;
+	font-size:30px;
+}
+
+.wrapper>div{
+	
+	background:#eee;
+	padding:1em;
+}
+
+.wrapper>div:nth-child(odd){
+	
+
+}
+
+h1{
+	color:white;
+}
+
+.addGameContent{
+	font-size:20px;
+	color:white;
+
+	margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 50px 50px 50px 300px;
+}
+
+#table1{
+    border-collapse: separate;
+    border-spacing: 15px 20px; /*the first sets the horizontal spacing and the second sets the vertical spacing*/
+}
+
